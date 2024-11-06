@@ -24,13 +24,13 @@
             </a>
 
         </div>
-
-
-        <h1 class="header__title">Emergencias y Donaciones</h1>
+        <div>
+            <h1 class="header__title">SalvaHoy</h1>
+        </div>
         <!--Navegacion-->
         <nav>
             <ul>
-                <li><a href="#incendios" id="incedios">Catastrophes</a></li>
+                <li><a href="#incendios" id="incedios">Informacion</a></li>
             </ul>
         </nav>
     </header>
@@ -38,20 +38,22 @@
         <section>
             <div class="catastrophes">
                 <h2 class="catastrophes__title">Incendios en Amazonas</h2>
-                <img class="catastrophes__imagen" src="./img/amazonas.jpeg" alt="amazonas">
+                <figure class="figure image">
+                <img class="catastrophes__imagen" src="./img/amazonas.jpeg" alt="amazonas"><figcaption>Amazonas</figcaption>
+            </figure>
                 <p><strong class="Catastrophes__texto"> incendios en la Amazonia, una de las selvas tropicales más
                         grandes y biodiversas del
                         mundo, son un problema ambiental crítico que afecta no solo a la región sino al planeta.
-                        Estos incendios, que ocurren mayormente en la temporada seca, son causados tanto por
-                        factores naturales como, principalmente, por actividades humanas, como la tala y quema de
-                        terrenos para la agricultura y ganadería. </strong></p>
+                         </strong></p>
                 <button class="catastrophe__buton">Ver mas</button>
             </div>
         </section>
         <section>
             <div class="catastrophes">
                 <h2 class="catastrophes__title">Incendios en amazonas</h2>
-                <img class="catastrophes__imagen" src="./img/tarjeta2.jpeg" alt="fuego">
+                <figure class="figure image">
+                <img class="catastrophes__imagen" src="./img/tarjeta2.jpeg" alt="fuego"><figcaption>Niños llorando</figcaption>
+            </figure>
                 <p><strong class="Catastrophes__texto">comunidades indígenas y agricultores en la Amazonía necesitan
                         ayuda urgente por los
                         incendios. Pierden sus hogares, cultivos y fuentes de ingreso, además de que peligra su
@@ -61,21 +63,20 @@
         </section>
     </main>
     <footer class="footer">
-        <nav>
-            <ul class="footer--nav">
-                <li><a href="#privacidad">Politica de Privacidad</a></li>
-                <li><a href="#terminos">Terminos y condiciones</a></li>
-            </ul>
-        </nav>
-        <div class="footer--social">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
+        <div class="footer__links">
+            <div class="footer__social-links">
+                <a href="#Facebook" class="footer__social-link footer__social-link--facebook">Facebook</a>
+                <a href="#Instagram" class="footer__social-link footer__social-link--instagram">Instagram</a>
+                <a href="#Twitter" class="footer__social-link footer__social-link--twitter">Twitter</a>
+            </div>
+            <div class="footer__legal-links">
+                <a href="#Terminos y Condiciones" class="footer__legal-link">Términos y Condiciones</a>
+                <a href="#Politica de Privacidad" class="footer__legal-link">Política de Privacidad</a>
+                <a href="#Contactanos" class="footer__legal-link">Contáctanos</a>
+            </div>
         </div>
-        <div class="footer--contact">Contacta con nosotros</div>
-        <div class="footer--copyright">© 2024 ChefConnect</div>
     </footer>
-
+    
 </body>
 
 </html>
