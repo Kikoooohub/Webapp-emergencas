@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 70px;
+    
+}
+.logo{
+    border: 2px;
+    border-radius: 70px 70px 70px 70px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    color: black;
+}
+.logo img{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    
+}
