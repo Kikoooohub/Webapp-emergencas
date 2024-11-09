@@ -1,23 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informacion Inced</title>
+    <meta name="description"
+        content="Sitio web dedicado a la prevencion,control y respuesta ante incendios.Informacion clave sobre que ahcer en caso de incendio y como protegerte.">
+    <meta name="keywords"
+        content="prevencion de incendios,seguridad contra incedios,evacuacion,emeregencias,proteccion de incendios">
+    <meta name="author" content="Kristiyan Krastev">
+    <title>Incendios</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Informacion Incedios</title>
 </head>
+
 <body>
+    <header class="header">
+        <!-- Header -->
+        <div class="logo">
+
+            <a href="./img/" id="logo">
+                <img src="./img/log fire.jpg" alt="Incendios">
+            </a>
+
+        </div>
+        <div>
+            <h1 class="header__title">SalvaHoy</h1>
+        </div>
+        <!--Navegacion-->
+        <nav>
+            <ul>
+                <li><a href="#incendios" id="incedios">Informacion</a></li>
+                <li><a href="#contacto" id="contacto">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <h3 class="title">Amazonas en Llamas: Una Crisis Global</h3>
+    <main>
+        <section class="section">
+            <div class="catastrophes"></div>
+            <img src="./img/planet.jpeg" alt="imagen principal">
+            <h2 class="catastrophes__title">TITULO IMAGEN</h2>
+            <p><strong class="catastrophes__title">Los incendios en la Amazonía son una grave crisis ambiental que
+                    impacta a las comunidades locales, la economía y el clima global. Miles de hectáreas de selva se
+                    queman cada año, muchas veces para ampliar áreas de cultivo y ganadería. Esto afecta a las
+                    comunidades indígenas y agricultores, quienes pierden sus hogares y fuentes de ingreso. Además, los
+                    incendios liberan enormes cantidades de CO₂, dañando el clima y la salud de los habitantes. La
+                    pérdida de biodiversidad es crítica, amenazando a numerosas especies y al equilibrio ecológico de
+                    esta región vital.</strong></p>
+            <section class="iframe">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16306502.380741926!2d-64.9476566!3d-3.792819999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92183f5c8b1d6ed1%3A0x176d6af66b3c2efa!2sAmazonas%2C%20Brasil!5e0!3m2!1ses!2ses!4v1731186496595!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p><strong>Aqui tienen la ubicacion exacta del gran desastra.</strong></p>
+            </section>
+            <section class="lista__ol">
+                <ol>
+                    <li class="lista__text">Centro de asistencia</li>
+                    <li class="lista__text"></li>
+                    <li class="lista__text"></li>
+                    <li class="lista__text"></li>
+                    <li class="lista__text"></li>
+                </ol>
+
+            </section>
 
 
-
-
-    <section id="acciones"></section>
-    <h2>Como ayudar</h2>
-    <p>Que se puede hacer</p>
-    <ul>
-        <li>Donaciones</li>
-        <li>Voluntario</li>
-        <li>Solicitar Ayuda</li>
-    </ul>
+        </section>
+        <section class="contact">
+            <h3>Contact Us</h3>
+            <form action="/incendios.html" method="" class="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
     
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age" min="16" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer__links">
+            <div class="footer__social-links">
+                <a href="#Facebook" class="footer__social-link footer__social-link--facebook">Facebook</a>
+                <a href="#Instagram" class="footer__social-link footer__social-link--instagram">Instagram</a>
+                <a href="#Twitter" class="footer__social-link footer__social-link--twitter">Twitter</a>
+            </div>
+            <div class="footer__legal-links">
+                <a href="#Terminos y Condiciones" class="footer__legal-link">Términos y Condiciones</a>
+                <a href="#Politica de Privacidad" class="footer__legal-link">Política de Privacidad</a>
+                <a href="#Contactanos" class="footer__legal-link">Contacto</a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
