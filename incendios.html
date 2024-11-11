@@ -38,54 +38,72 @@
         </nav>
     </header>
     <h3 class="title">Amazonas en Llamas: Una Crisis Global</h3>
-    <main>
+    <main class="main__content">
         <section class="section">
-            <div class="catastrophes"></div>
-            <img src="./img/planet.jpeg" alt="imagen principal">
-            <h2 class="catastrophes__title">TITULO IMAGEN</h2>
-            <p><strong class="catastrophes__title">Los incendios en la Amazonía son una grave crisis ambiental que
-                    impacta a las comunidades locales, la economía y el clima global. Miles de hectáreas de selva se
-                    queman cada año, muchas veces para ampliar áreas de cultivo y ganadería. Esto afecta a las
-                    comunidades indígenas y agricultores, quienes pierden sus hogares y fuentes de ingreso. Además, los
-                    incendios liberan enormes cantidades de CO₂, dañando el clima y la salud de los habitantes. La
-                    pérdida de biodiversidad es crítica, amenazando a numerosas especies y al equilibrio ecológico de
-                    esta región vital.</strong></p>
-            <section class="iframe">
-                <iframe
+            <div class="catastrophes">
+                <img class="catastrophes__imagen" src="./img/planet.jpeg" alt="imagen principal">
+                <h2 class="catastrophes__title">Porque son tan peligrosos los incendios en Amazonas para el mundo?</h2>
+                <p><strong class="catastrophes__texto">Los incendios en la Amazonía son una grave crisis ambiental que
+                        impacta a las comunidades locales, la economía y el clima global. Miles de hectáreas de selva se
+                        queman cada año, muchas veces para ampliar áreas de cultivo y ganadería. Esto afecta a las
+                        comunidades indígenas y agricultores, quienes pierden sus hogares y fuentes de ingreso. Además,
+                        los
+                        incendios liberan enormes cantidades de CO₂, dañando el clima y la salud de los habitantes. La
+                        pérdida de biodiversidad es crítica, amenazando a numerosas especies y al equilibrio ecológico
+                        de
+                        esta región vital.</strong></p>
+            </div>
+            <section class="section">
+                <iframe class="iframe"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16306502.380741926!2d-64.9476566!3d-3.792819999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92183f5c8b1d6ed1%3A0x176d6af66b3c2efa!2sAmazonas%2C%20Brasil!5e0!3m2!1ses!2ses!4v1731186496595!5m2!1ses!2ses"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <p><strong>Aqui tienen la ubicacion exacta del gran desastra.</strong></p>
+                <p class="texto__mapa">Aqui tienen la ubicacion exacta del gran desastre.</strong></p>
             </section>
-            <section class="lista__ol">
+            <section class="list__container">
                 <ol>
-                    <li class="lista__text">Centro de asistencia</li>
-                    <li class="lista__text"></li>
-                    <li class="lista__text"></li>
-                    <li class="lista__text"></li>
-                    <li class="lista__text"></li>
+                    <li class="list__text"><strong>1.Centro Medico </strong>-Pueden encotrar el centro medico en la
+                        <strong>C/Marquez Navarro 32.</strong>
+                    </li>
+                    <li class="list__text"><strong>2.Centro de comida </strong>-El centro de Comida mas cercano de la
+                        zona afectada esta en
+                        la <strong>C/ Christofor Columb 77 </strong>.</li>
+                    <li class="list__text"><strong>3.Ayuda para animales </strong>-En caso de que su animal necesita
+                        asistencia medica el
+                        centro mas cercano se encuentra en la <strong>C/Nuevo centro 24. </strong>
+                    </li>
+                    <li class="list__text"><strong>4.Centro de gente con familiares perdidos </strong>-Si usted tiene
+                        algun familiar perdido o sigue buscandolo,puede dar informacion sobre el/ella en la
+                        <strong>C/Pedro Sanchez 87 </strong>.
+                    </li>
+                    <li class="list__text"><strong>5.Centro de Educacion </strong>-Para los estudiantes que se quedaron
+                        sin colegio y sin centros de estudios-Pueden acercarse en la <strong>C/Colegio 1 </strong>.Ahi
+                        podran encotrar todo tipo de mataerial necesario para estudiar.</li>
                 </ol>
 
             </section>
 
 
         </section>
-        <section class="contact">
-            <h3>Contact Us</h3>
-            <form action="/incendios.html" method="" class="contact-form">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-    
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
-    
-                <label for="age">Edad:</label>
-                <input type="number" id="age" name="age" min="16" required>
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-    
-                <button type="submit">Enviar</button>
+
+
+
+        <section class="contact__container">
+            <h3 class="contact__title">Inscribcion de Voluntarios</h3>
+            <form action="/incendios.html" method="POST" class="contact__form">
+                <label class="contact__label" for="name">Nombre:</label>
+                <input class="input" type="text" id="name" name="name" required>
+
+                <label class="contact__label" for="password">Contraseña:</label>
+                <inputclass="input" type="password" id="password" name="password" required>
+
+                <label class="contact__label" for="age">Edad:</label>
+                <input class="input" type="number" id="age" name="age" min="16" required>
+
+                <label class="contact__label" for="email">Email:</label>
+                <input class="input" type="email" id="email" name="email" required>
+
+                <button  type="submit">Enviar</button>
             </form>
         </section>
     </main>
